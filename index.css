@@ -1,12 +1,16 @@
-html{font-family:sans-serif}
+html{font-family:Comic;
+  
+  
+}
 h1{color:red}
 p{color:blue}
 .pomo-est{font-weight: bold;
   color: #f442eb;
   background-color: #F5F5F5;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px 10px 5px 10px;
+  margin: 5px;
 }
 #add-new-todo{
     font-size:20px;
@@ -20,4 +24,23 @@ p{color:blue}
    color: red;
    background-color: rgb(20, 40, 60);
 }
+  
+  
 
+li{
+  list-style-type: none;
+  font-size: 24px;
+  
+}
+li:hover{
+  background-color: rgb(154, 20, 20);
+  
+}
+
+.input-stuff{
+  list-style-type:none;
+}
+
+/*input:hover{
+  list-style-type:line;
+}
